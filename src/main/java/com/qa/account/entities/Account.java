@@ -54,10 +54,7 @@ public class Account {
 		return this.prize;
 	}
 	
-	public void setAccountNumber(String num) {//how,,, want to get accounts for accnums
-//		if (AccountService.getAccounts().accountNumber.equals(num)||(!num.matches("^[a-b][0-9]({6}|{8}|{10})"))) {
-//			return;
-//		}
+	public void setAccountNumber(String num) {
 		this.accountNumber=num;		
 	}	
 }
