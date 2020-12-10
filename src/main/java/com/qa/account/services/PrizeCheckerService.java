@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class PrizeCheckerService {
-	public double prizeCheck(String accountNumber) {//where does this go
+	public double prizeCheck(String accountNumber) {
 		if (accountNumber.startsWith("b")) {
 			return 5 *(((accountNumber.length()/2)-2)*10);			
 		}
